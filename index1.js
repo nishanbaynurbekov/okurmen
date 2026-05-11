@@ -1,5 +1,7 @@
 const API = "https://69e59424ce4e908a155e2650.mockapi.io/Bhh/chyngyz"
 
+
+ 
 const tereze = document.getElementById("tereze")
 const cont1 = document.querySelector(".cont1")
 const adabiat = document.getElementById("open")

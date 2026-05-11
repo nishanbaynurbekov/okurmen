@@ -1,15 +1,8 @@
-const kitep = document.querySelector(".fix")
+ 
 const kana = document.getElementById("kana")
 const kir = document.querySelector(".kir")
  
- function openUI(params) {
-   kana.innerHTML = `<div class="birinchi"><h1>Бул жер келечекте китеп кана, китеп окуй турган жер болот, буюруса
-   
-   Менда ошол күн үчүн жан үрөп аракет кылам!...</h1></div>`
-   kana.style.backgroundImage="none"
- }
-
- kitep.onclick = openUI
+  
 
  function login(params) {
     kana.innerHTML = `<div class="kattal"><h1>Электрондук китеп канaга катталуу</h1><hr>

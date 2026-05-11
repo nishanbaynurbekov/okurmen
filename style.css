@@ -48,7 +48,7 @@ h1{
      grid-column: span 4;
  }#kana{
      width: 1024px;
-     height: 950px;
+     height: 900px;
       border: 2px solid black;
       background-image: url("https://ngcmshak.ru/uploads/dsn/fe/72/001/1587646418_38-p-besshovnie-foni-dlya-saitov-112.jpg");
       opacity: 2;
@@ -74,7 +74,7 @@ h1{
    }
  .opti{
     width: 1000px;
-    height: 950px;
+    height: 900px;
     border: 2px solid black;
 
     margin: 0 auto;
@@ -145,6 +145,7 @@ h1{
      justify-content: center;
      align-items: center;
      text-align: center;
+     
  } 
 .wert{
      text-align: center;
@@ -171,7 +172,7 @@ h1{
     margin-left: -200px;
     grid-column: span1;
  }
- .block{
+  .block{
   width: 90px;
    height: 90px;
    border: 1px solid blue;
@@ -218,7 +219,7 @@ h1{
          justify-content: center;
           align-items: center;
    }
-   .avtor{
+    .avtor{
       width: 280px;
       height: 70px;
       border: 1px solid black;
@@ -251,7 +252,7 @@ h1{
       margin: 0 auto;
       background-color: rgb(30, 0, 59);
    }
-@media (max-width: 900px){ 
+@media (max-width: 900px) and (min-width: 300px){ 
     header{
         width: 600px;
         height: 30px;
@@ -262,34 +263,36 @@ h1{
     }
       #kana{
       width: 600px;
-      min-height: 2170px;
+      min-height: 2300px;
        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbJlE5Hv3rI6I2qq80MO121HtLA8Yq1w70HQ&s"); 
        background-repeat: no-repeat;
        background-size: cover;
         margin: 0 auto;
         position: relative;
     }
-    .fix{
-          width: 100%;
-          max-width: 600px;
-          height: 15px;
-          /* position: relative; */
-          position:sticky;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 30px;
-          font-weight: 700;
-         
-         top: 380px;
-        right:00px; 
-        cursor: pointer;
-    }
+       .fix{
+   max-width: 500px;
+    /* width: 90%; */
+   height: 15px;
+   position:fixed;
+    left: 75%;
+   top: 15%;
+   transform: translateX(-15%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 50px;
+     font-weight: 900;
+     cursor: pointer;
+      z-index: calc(2);
+      color: #ccc;
+   }
     .opti{
       width: 580px;
       height:2050px;
       display: block;
        margin: 0 auto;
+       border: none;
        
     }
     .cont{
@@ -297,31 +300,109 @@ h1{
       height: 570px;
       margin: 0 auto;
       margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
     }
      .bloc{
-      width: 120px;
-      height: 120px;
+      width: 300px;
+      height: 30px;
       margin: 0 20px;
       
      }
       .bash{
       width: 400px;
-      height: 600px;
+      height: 680px;
       margin: 0 auto;
-       margin-bottom: 20px;
+       margin-bottom: 10px;
     }
-    .kfc, .jash{
-        margin: 0 auto;
+    .kfc{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    }
+      .class{
+      width: 300px;
+      height: 50px;
+     margin:  0 auto;
+    }
+     .tun{
+       width: 300px;
+      height: 30px;
+      margin: 0 auto;
+    }
+    .jash{
+       width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    }
+  .block{
+      width: 300px;
+      height: 30px;
+      margin: 0 auto;
+
+    }
+    .ok{
+       width: 300px;
+      height: 50px;
+     margin:  0 auto;
+     margin-bottom: 30px;
+    }
+    .okur{
+      border: none;
+      margin: 0 auto;
     }
      
     .tash{
       width: 400px;
-      height: 600px;
+      height: 670px;
       margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
      } 
-     .okur,.avtor{
-      margin: 0 auto;
+     .okur{
+         display: flex;
+      flex-wrap: wrap;
      }
+     .pero{
+      width: 300px;
+      height: 40px;
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 55px;
+     }
+     .go{
+      width: 300px;
+      height: 30px;
+      margin: 0 auto;
+     
+     }
+     .avtor{
+      border: none;
+      width: 350px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap; 
+      margin-left: 25px;
+     }
+     .bat{
+     width: 300px;
+     height: 30px;
+     margin: 0 auto;
+     border: 1px solid black;
+     }
+     .bit{
+      width: 300px;
+     height: 30px;
+     border: 1px solid black;
+     margin: 0 auto;
+
+     }
+     
      footer{
       width: 600px;
       height: 200px;
